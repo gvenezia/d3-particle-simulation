@@ -354,7 +354,7 @@ function createProperResCanvas(w, h, ratio) {
     // Set canvas
     var can = document.querySelector("#graph-canvas");
     can.width = w * ratio;
-    can.height = h;
+    can.height = h * ratio;
     can.style.width = w + "px";
     can.style.height = ratio > 1 ? h/2 + "px" : h + "px";
 

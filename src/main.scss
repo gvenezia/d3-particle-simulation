@@ -7,12 +7,16 @@ html, body {
   /*overflow: hidden;*/
 }
 
-p {
+p, h4 {
   width: 300px;
-  font: 12px sans-serif;
   padding: 5px;
+  font-family: sans-serif;
   position: absolute;
-  display: inline;
+  /*display: inline-block;*/
+}
+
+p {
+  font-size: 12px;
 }
 
 /*svg path {

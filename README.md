@@ -1,5 +1,15 @@
-# D3 boilerplate 
-This project has been adapted from Willam Soares' webpack-babel setup   which you can find below under the next main heading.
+# D3 Particle Simulation
+A force network simulates flow between states. 
+
+Each particle represents (at least) one "subject" or "object" in an experiment or simulation. Since many particles overlap paths, I've elected to have them perfectly overlap, but each node could be offset (perhaps with curved paths) in order to show quantity. 
+
+The particle moves along the path that was created in the simulation (see particle-paths.csv). The simulation will reset after it completes, or within 5 seconds. You can double click to isolate one node. 
+
+When one particles enters a node and two exit, that means that two different paths This force network simulates flow between states.
+
+
+## D3 boilerplate 
+This project has been adapted from Willam Soares' webpack-babel setup, which you can find below under the next main heading.
 
 ***
 
